@@ -3,34 +3,34 @@ import random
 import gmail
 
 emails = [
-    'benjamingirone@gmail.com',
-    'itsalyssagirone@gmail.com',
-    'willgironefitness@gmail.com',
-    'maria.f.wendt@gmail.com',
-    'Anne.Pook04@gmail.com',
-    'john.girone@comcast.net'
+    'participant1@gmail.com',
+    'participant2@gmail.com',
+    'participant3@gmail.com',
+    'participant4@gmail.com',
+    'participant5@gmail.com',
+    'participant6@comcast.net'
 ]
 
 emailToName = {
-    'benjamingirone@gmail.com': 'Ben',
-    'itsalyssagirone@gmail.com': 'Alyssa',
-    'willgironefitness@gmail.com': 'Will',
-    'maria.f.wendt@gmail.com': 'Maria',
-    'Anne.Pook04@gmail.com': 'Annie',
-    'john.girone@comcast.net': 'Johnny',
+    'participant1@gmail.com': 'Ben',
+    'participant2@gmail.com': 'Alyssa',
+    'participant3@gmail.com': 'Will',
+    'participant4@gmail.com': 'Maria',
+    'participant5@gmail.com': 'Annie',
+    'participant6@comcast.net': 'Johnny',
 }
 
 illegalCombos = [
-    'benjamingirone@gmail.com benjamingirone@gmail.com',
-    'itsalyssagirone@gmail.com itsalyssagirone@gmail.com',
-    'willgironefitness@gmail.com willgironefitness@gmail.com',
-    'maria.f.wendt@gmail.com maria.f.wendt@gmail.com',
-    'Anne.Pook04@gmail.com Anne.Pook04@gmail.com',
-    'john.girone@comcast.net john.girone@comcast.net',
-    'benjamingirone@gmail.com itsalyssagirone@gmail.com',
-    'itsalyssagirone@gmail.com benjamingirone@gmail.com',
-    'willgironefitness@gmail.com maria.f.wendt@gmail.com',
-    'maria.f.wendt@gmail.com willgironefitness@gmail.com'
+    'participant1@gmail.com participant1@gmail.com',
+    'participant2@gmail.com participant2@gmail.com',
+    'participant3@gmail.com participant3@gmail.com',
+    'participant4@gmail.com participant4@gmail.com',
+    'participant5@gmail.com participant5@gmail.com',
+    'participant6@comcast.net participant6@comcast.net',
+    'participant1@gmail.com participant2@gmail.com',
+    'participant2@gmail.com participant1@gmail.com',
+    'participant3@gmail.com participant4@gmail.com',
+    'participant4@gmail.com participant3@gmail.com'
 ]
 
 def makeCombos():
